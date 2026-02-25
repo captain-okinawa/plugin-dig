@@ -24,7 +24,6 @@ Dig – Cursor 用プラグイン。計画の曖昧さを構造化された質�
 
 kuuさんがClaudeCodeのプラグインで実装していただいたものを参考にcursorでも利用できるように作成いたしました。
 https://github.com/fumiya-kume/claude-code/tree/master/dig
+
 GPL-3.0（dig プラグインと同様）
 
-=======
-# plugin-dig
