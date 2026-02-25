@@ -1,4 +1,4 @@
-# dig
+﻿# dig
 
 Clarify ambiguities in plans with structured questions using the AskUser tool.
 
@@ -89,11 +89,11 @@ This command uses the following Cursor tools:
 
 ```
 dig/
-├── .cursor-plugin/
-│   └── plugin.json        # Plugin manifest
-├── commands/
-│   └── dig.md             # Command definition
-└── README.md              # This file
+├─ .cursor-plugin/
+│  └─ plugin.json        # Plugin manifest
+├─ commands/
+│  └─ dig.md             # Command definition
+└─ README.md             # This file
 ```
 
 ## Credits

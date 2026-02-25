@@ -1,29 +1,33 @@
-# plugin-dig
+﻿# plugin-dig
 
-Dig – Cursor 用プラグイン。計画の曖昧さを構造化された質問で解消します。
+Dig - Cursor 向けのプラグインで、計画や要件の曖昧さを構造化した質問で解消します。
 
 ## 含まれるプラグイン
 
-- **dig**: 計画ファイルを読み、不明点を洗い出し、AskUser で 2〜4 問の構造化質問を行い、回答後に Decisions と Next Steps を出力します。
+- **dig**: 計画ファイルを読み取り、曖昧点を抽出して AskUser で 2-4 個の選択肢質問を生成し、意思決定と次の作業を整理します。
 
 ## 使い方
 
-1. Cursor の **Settings** → **Plugins** で「Add plugin」をクリックし、次のいずれかを指定します。
-   - **このリポジトリ全体**: リポジトリルート（このフォルダ）のパスを指定すると、`.cursor-plugin/marketplace.json` に登録されたプラグインが利用できます。
-   - **dig のみ**: `plugins/dig` フォルダのパスを指定すると、dig だけがインストールされます。
-2. チャットで **`/dig`** を実行して、計画の明確化を開始します。
+1. Cursor の **Settings** → **Plugins** からプラグインを追加します。
+   - **リポジトリ全体**: このリポジトリのルートを指定し、`.cursor-plugin/marketplace.json` を読み込ませます。
+   - **dig のみ**: `plugins/dig` を指定します。
+2. チャットで **`/dig`** を実行します。
 
-詳細は [plugins/dig/README.md](plugins/dig/README.md) を参照してください。
+詳細は `plugins/dig/README.md` を参照してください。
 
-## 開発・提出
+## 検証
 
-- バリデーション: リポジトリルートで `node scripts/validate-template.mjs` を実行し、通過することを確認してください。
-- マーケットプレース提出: [cursor.com/marketplace/publish](https://cursor.com/marketplace/publish) でこのリポジトリの URL を提出してください。
+- バリデーション: `node scripts/validate-template.mjs`
+
+## マーケットプレイス公開
+
+- 公開方法は Cursor の公式ガイドに従います。
 
 ## ライセンス
 
-kuuさんがClaudeCodeのプラグインで実装していただいたものを参考にcursorでも利用できるように作成いたしました。
-https://github.com/fumiya-kume/claude-code/tree/master/dig
+GPL-3.0（元の dig プラグインと同一）
 
-GPL-3.0（dig プラグインと同様）
+## クレジット
 
+- 元の dig プラグイン（Claude Code 版）
+  - https://github.com/fumiya-kume/claude-code/tree/master/dig

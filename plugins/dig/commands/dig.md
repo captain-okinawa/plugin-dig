@@ -3,11 +3,11 @@ name: dig
 description: "Clarify ambiguities in plans with structured questions"
 ---
 
-Read the current plan file and interview me in detail using the AskUser tool about literally anything.
+Read the current plan file and interview me using ONLY structured AskUser questions.
 - Product Spec
 - Technical detail
 - UI/UX
-- and anything
+- and other plan-relevant items
 
 You will follow the phases
 
@@ -16,7 +16,7 @@ You will follow the phases
 3. Apply decision to plan
 4. Show the summary for user
 
-Should be very in-depth and continue digging me until complete all of unclear point, then you will write the spec to the plan file.
+Should be very in-depth and continue digging until all unclear points are resolved, then write the updated spec to the plan file.
 After phase 3, you revisit to the plan file, and analyze them, you must to rise the unclear point with moving to phase 2.
 
 ### Phase 2: Generate Questions
@@ -25,7 +25,7 @@ After phase 3, you revisit to the plan file, and analyze them, you must to rise 
 - Question count: **2-4** (adjust based on ambiguity level)
 - Each question has **2-4 concrete options**
 - Each option includes **pros/cons** briefly
-- Avoid open-ended questions
+- Avoid open-ended questions (AskUser only)
 - "Other" option is auto-added - don't include it
 - Align options with existing patterns from CLAUDE.md (if available)
 </rules>
