@@ -1,0 +1,1 @@
+{"name":"plugin-dig","owner":{"name":"captain-okinawa"},"metadata":{"description":"Dig - Plan clarification plugin for Cursor","version":"1.0.0","pluginRoot":"plugins"},"plugins":[{"name":"dig","source":"dig","description":"Clarify ambiguities in plans with structured questions"}]}
